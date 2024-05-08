@@ -10,8 +10,8 @@ data = {
 }
 df = pd.DataFrame(data)
 
-# Sort DataFrame by 'Age' column
-sorted_df = df.sort_values(by='Age')
+# Sort DataFrame by 'City' column
+sorted_df = df.sort_values(by='City')
 
 # Print sorted DataFrame
 print(sorted_df)
